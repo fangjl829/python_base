@@ -12,6 +12,7 @@ import numpy as np
 #创建0-10中100个等差数
 x=np.linspace(0,10,100)
 sin_y=np.sin(x)
+
 #绘制正弦曲线
 #对画布进行分区 将画布分为2行2列  画到区1
 plt.subplot(2,2,1)
