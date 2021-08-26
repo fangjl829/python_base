@@ -17,7 +17,7 @@ class ClockProcess(Process):
         Process.__init__(self)
         self.interval=interval
 
-    #重新run()
+    # 重写run()
     def run(self):
         print('子进程开始执行的时间:{}'.format(time.ctime()))
         sleep(self.interval)
